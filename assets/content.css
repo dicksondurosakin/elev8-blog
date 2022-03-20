@@ -61,7 +61,6 @@ aside {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
 }
 
 .ff_content .person .comment .p_person h3 {
@@ -164,12 +163,11 @@ aside .related .rt h5 {
   float: left;
   font-size: 50px;
   font-weight: bold;
-  margin-right: 9px;
 }
 
 .content_itself p {
   font-size: 18px;
-  line-height: 28px;
+  line-height: 32px;
   font-weight: 400;
   margin: 20px auto;
 }

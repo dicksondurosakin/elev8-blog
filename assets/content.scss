@@ -52,7 +52,7 @@ aside {
       .p_person {
         margin: 10px 0 10px 0;
         display: flex;
-        width: 80%;
+        // width: 80%;
         h3 {
           font-size: 20px;
           margin-bottom: 10px;
@@ -139,19 +139,21 @@ aside {
 
 .main_script {
   margin-top: 50px;
+  // text-align: justify;
   &::first-letter {
     float: left;
     font-size: 50px;
     // line-height: 1;
     font-weight: bold;
-    margin-right: 9px;
   }
 }
 
 .content_itself {
   p {
     font-size: 18px;
-    line-height: 28px;
+    line-height: 32px;
+    // text-align: justify;
+
     font-weight: 400;
     margin: 20px auto;
   }

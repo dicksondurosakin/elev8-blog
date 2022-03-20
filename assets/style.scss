@@ -25,7 +25,9 @@ img {
   margin: 0 auto;
   padding: 0 20px;
 }
-
+small {
+  margin: 10px 0;
+}
 nav {
   background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -147,6 +149,7 @@ nav {
 
     .component1 {
       //   margin-top: 35px;
+      color: #333333;
       label {
         background-color: var(--mini-blue);
         color: rgba(49, 31, 56, 0.87);
@@ -157,11 +160,13 @@ nav {
       }
       h3 {
         font-size: 30px;
+        color: #333333;
         font-weight: 500;
         margin: 20px 0;
         line-height: 35px;
       }
       p {
+        color: #333333;
         margin-bottom: 15px;
       }
     }
@@ -184,15 +189,20 @@ hr {
 
 .by {
   display: flex;
+  color: #333333;
   img {
     width: 45px;
     margin-right: 10px;
     height: 45px;
     border-radius: 50%;
   }
+  h4 {
+    color: #333333;
+  }
 
-  // .name {
-  // }
+  i {
+    color: #333333;
+  }
 }
 
 footer {
@@ -313,6 +323,9 @@ footer {
 @media (min-width: 768px) {
   .container {
     padding: 0 40px;
+  }
+  .ff_content .person .comment .p_person {
+    width: 100%;
   }
   main {
     display: flex;

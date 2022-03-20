@@ -29,6 +29,10 @@ img {
   padding: 0 20px;
 }
 
+small {
+  margin: 10px 0;
+}
+
 nav {
   background-color: var(--primary-color);
   -webkit-box-shadow: var(--box-shadow);
@@ -165,6 +169,10 @@ nav {
   margin-bottom: 35px;
 }
 
+.main_blog .first_blog .component1 {
+  color: #333333;
+}
+
 .main_blog .first_blog .component1 label {
   background-color: var(--mini-blue);
   color: rgba(49, 31, 56, 0.87);
@@ -175,12 +183,14 @@ nav {
 
 .main_blog .first_blog .component1 h3 {
   font-size: 30px;
+  color: #333333;
   font-weight: 500;
   margin: 20px 0;
   line-height: 35px;
 }
 
 .main_blog .first_blog .component1 p {
+  color: #333333;
   margin-bottom: 15px;
 }
 
@@ -202,6 +212,7 @@ hr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: #333333;
 }
 
 .by img {
@@ -209,6 +220,14 @@ hr {
   margin-right: 10px;
   height: 45px;
   border-radius: 50%;
+}
+
+.by h4 {
+  color: #333333;
+}
+
+.by i {
+  color: #333333;
 }
 
 footer {
@@ -336,6 +355,9 @@ footer .foot .copyr ul li a img {
 @media (min-width: 768px) {
   .container {
     padding: 0 40px;
+  }
+  .ff_content .person .comment .p_person {
+    width: 100%;
   }
   main {
     display: -webkit-box;
