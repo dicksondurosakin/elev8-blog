@@ -77,6 +77,11 @@ nav {
 .navbar ul li {
   font-size: 16px;
   font-weight: 600;
+  color: #333333;
+}
+
+.navbar ul li a {
+  color: #333333;
 }
 
 .navbar button {
@@ -88,6 +93,11 @@ nav {
   color: var(--primary-color);
   background-color: var(--mini-blue);
   border: 0;
+  margin-right: 20px;
+}
+
+.navbar button a {
+  color: #ffffff;
 }
 
 .main_banner {
@@ -359,6 +369,9 @@ footer .foot .copyr ul li a img {
   .ff_content .person .comment .p_person {
     width: 100%;
   }
+  .navbar ul {
+    visibility: none;
+  }
   main {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -383,6 +396,10 @@ footer .foot .copyr ul li a img {
     width: 35%;
     margin-top: 230px;
     height: 800px;
+  }
+  .inmail {
+    width: 60%;
+    padding: 50px;
   }
   .copyr {
     display: -webkit-box;
@@ -463,6 +480,9 @@ footer .foot .copyr ul li a img {
   .bio .b_text {
     width: 70%;
     margin-top: 0px;
+  }
+  .navbar ul {
+    visibility: hidden;
   }
 }
 
