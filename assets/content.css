@@ -99,6 +99,11 @@ aside .profile img {
 
 aside .profile h2 {
   margin: 10px auto;
+  color: #333333;
+}
+
+aside .profile p {
+  color: #333333;
 }
 
 aside .related h3 {

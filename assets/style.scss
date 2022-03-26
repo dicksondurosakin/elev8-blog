@@ -49,6 +49,9 @@ nav {
   h1 {
     color: var(--logo);
     margin-right: auto;
+    a {
+      color: var(--logo);
+    }
   }
   ul {
     display: flex;
@@ -74,6 +77,7 @@ nav {
     color: var(--primary-color);
     background-color: var(--mini-blue);
     border: 0;
+    margin-top: 20px;
     margin-right: 20px;
     a {
       color: #ffffff;
@@ -195,7 +199,30 @@ nav {
     }
   }
 }
+.pagination {
+  // display: inline-block;
+  text-align: center;
 
+  margin: 20px auto;
+}
+
+.pagination a {
+  color: black;
+  // float: left;
+  padding: 8px 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: var(--logo);
+  font-weight: 700;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
 hr {
   border: 1px solid rgb(116, 116, 116);
   margin: 30px 0;
@@ -346,6 +373,13 @@ footer {
   .navbar ul {
     visibility: none;
   }
+
+  .navbar button {
+    display: block;
+    margin-top: 0;
+    // margin-bottom: 30px;
+  }
+
   main {
     display: flex;
     justify-content: space-between;
