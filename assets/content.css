@@ -275,6 +275,89 @@ input:valid {
   height: 250px;
 }
 
+.profile .edit button {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  background-color: var(--logo);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 0;
+  float: right;
+}
+
+.profile .edit .bio {
+  position: relative;
+}
+
+.profile .edit .bio img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  margin-top: -50px;
+}
+
+.profile .edit .bio label {
+  background-color: teal;
+  height: 30px;
+  width: 30px;
+  color: #ffffff;
+  position: absolute;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 50%;
+  top: 80px;
+  cursor: pointer;
+  left: 100px;
+}
+
+.profile .edit .bio .b_text {
+  margin-bottom: 80px;
+}
+
+.profile .edit .bio .b_text h2 {
+  margin: 10px 0;
+}
+
+.profile .edit .bio .b_text p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.profile .edit .bio .b_text input {
+  width: 100%;
+  height: 50px;
+  margin: 15px 0;
+  padding: 15px;
+}
+
+.profile .edit .bio .b_text textarea {
+  width: 100%;
+  height: 150px;
+  margin: 15px 0;
+  padding: 15px;
+}
+
+.profile .edit .bio .b_text button {
+  font-size: 16px;
+  float: left;
+  width: auto;
+  color: #333333;
+  background-color: transparent;
+  font-weight: 600;
+  line-height: 25px;
+  margin: 20px 0;
+  padding: 5px 30px;
+  text-align: center;
+  border: 2px solid #333333;
+  letter-spacing: 0.02em;
+}
+
 .profile .all_post {
   margin-top: 100px;
 }

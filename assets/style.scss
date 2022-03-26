@@ -172,10 +172,16 @@ nav {
         font-weight: 500;
         margin: 20px 0;
         line-height: 35px;
+        max-height: 70px;
+        overflow: hidden;
+        background: #fff;
       }
       p {
         color: #333333;
         margin-bottom: 15px;
+        max-height: 110px;
+        background-color: #ffffff;
+        overflow: hidden;
       }
     }
   }
@@ -196,20 +202,22 @@ hr {
 }
 
 .by {
-  display: flex;
-  color: #333333;
-  img {
-    width: 45px;
-    margin-right: 10px;
-    height: 45px;
-    border-radius: 50%;
-  }
-  h4 {
+  a {
+    display: flex;
     color: #333333;
-  }
+    img {
+      width: 45px;
+      margin-right: 10px;
+      height: 45px;
+      border-radius: 50%;
+    }
+    h4 {
+      color: #333333;
+    }
 
-  i {
-    color: #333333;
+    i {
+      color: #333333;
+    }
   }
 }
 

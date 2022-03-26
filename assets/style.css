@@ -197,11 +197,17 @@ nav {
   font-weight: 500;
   margin: 20px 0;
   line-height: 35px;
+  max-height: 70px;
+  overflow: hidden;
+  background: #fff;
 }
 
 .main_blog .first_blog .component1 p {
   color: #333333;
   margin-bottom: 15px;
+  max-height: 110px;
+  background-color: #ffffff;
+  overflow: hidden;
 }
 
 .main_blog hr {
@@ -218,25 +224,25 @@ hr {
   margin: 30px 0;
 }
 
-.by {
+.by a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   color: #333333;
 }
 
-.by img {
+.by a img {
   width: 45px;
   margin-right: 10px;
   height: 45px;
   border-radius: 50%;
 }
 
-.by h4 {
+.by a h4 {
   color: #333333;
 }
 
-.by i {
+.by a i {
   color: #333333;
 }
 
